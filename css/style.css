@@ -1,0 +1,42 @@
+body{
+	
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', sans-serif;
+	color:#1F577C;
+}
+.logo{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.kontakt{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+.footer {
+	background-color:silver;
+	text-align:center;
+	font-size:80%;
+	padding:30px;
+}
+.mainmenu{
+	background-color:gray;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.sadrzaj{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.sadrzaj .container-fluid [class*=' col-'], .sadrzaj .container-fluid [class^='col-']{ padding:0; }
+
+/* visina uvek 100% visine reda */
+	.sadrzaj_container{
+		overflow:hidden;
+	}
+	.sadrzaj{
+		margin-bottom: -999999px; padding-bottom: 999999px;
+	}
